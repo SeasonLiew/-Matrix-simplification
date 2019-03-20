@@ -59,7 +59,8 @@ void row_simp(int m,int n,float arr[m][n]){
     }
 }
 void Print_matrix(int n, float arr[n][n]){
-    printf("***************\n");
+   for(int i=0;i<3*n;i++) printf(" *");
+    printf("\n");
     for(int i=0;i<=n-1;i++){
         printf("|");
         for(int j=0;j<=n-1;j++){
@@ -69,7 +70,8 @@ void Print_matrix(int n, float arr[n][n]){
         }
         printf("\n");
 }
-    printf("***************\n");
+    for(int i=0;i<3*n;i++) printf(" *");
+    printf("\n");
 }
 
 
