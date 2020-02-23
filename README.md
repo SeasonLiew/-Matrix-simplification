@@ -1,6 +1,6 @@
-# 化简n*n矩阵
-基于三角阶梯化简法，逐行消除，可以计算出上三角矩阵，以达到化简目的，并且计算其行列式。
-例如：输入矩阵
+# Simplification of n*n matrix and caculation of its determinant
+this prgm was inspired while learning the gauss elinimiation of linear algebra. it uses the general elimination procedure to simplify a matrix and calculate its determinant as well.
+e.g. the matrix saved as a 2d array as follow
 ```
  * * * * * * * * * * * *
 |2.00 -1.00 -1.00 5.00 
@@ -9,7 +9,7 @@
 |3.00 -2.00 4.00 1.00 
  * * * * * * * * * * * *
 ```
-经过一系列化简后可得矩阵
+the final result of simplicication
 ```
  * * * * * * * * * * * *
 |2.00 -1.00 -1.00 5.00 
@@ -19,4 +19,4 @@
  * * * * * * * * * * * *
  ```
 
-得出行列式为 156.00
+the determinant is 156.00
